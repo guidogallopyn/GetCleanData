@@ -23,6 +23,32 @@ Descriptive variable names were added by cleaning up the feature names in the or
 
 Finaly a tidy data set was constructed with the average of each variable for each activity and each subject. 
 
+The list variables in each observation of the data set includes:  
+
+- Activity: activity label. (WALKING,WALKINGUPSTAIRS,WALKINGDOWNSTAIRS,SITTING,STANDING, LAYING). 
+- Subject:  An identifier of the subject who carried out the experiment.
+- tBodyAccMeanXYZ
+- tGravityAccMenXYZ
+- tBodyAccJerkmeanXYZ
+- tBodyGyroMeanXYZ
+- tBodyGyroJerkMeanXYZ
+- tBodyAccMagMean
+- tGravityAccMagmean
+- tBodyAccJerkMagmean
+- tBodyGyroMagMean
+- tBodyGyroJerkMagMean
+- fBodyAccmeanXYZ
+- fBodyAccJerkmeanXYZ
+- fBodyGyromeanXYZ
+- fBodyAccMagmean
+- fBodyAccJerkMagMean
+- fBodyGyroMagMean
+- fBodyGyroJerkMagMean
+
+In addition there are the same varriable names as above with Mean substituted with Std 
+
+Note: 'XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
 
 References:
 ===========
